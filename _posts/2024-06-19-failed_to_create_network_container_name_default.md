@@ -52,14 +52,10 @@ docker 재시작
 iptables -t filter -N DOCKER
 ```
 
-### Failed Solution
-
-These solutions has been tried and has failed.
-
 ## Reason
 
 `DOCKER` 네트워크가 사라지는 것이 원인으로 추정.
 
 ## Referenced Links
 
-- https://github.com/wodby/docker4drupal/issues/211
+- [https://github.com/wodby/docker4drupal/issues/211](https://github.com/wodby/docker4drupal/issues/211)
